@@ -2,15 +2,15 @@ import { ref, watchEffect } from "vue";
 import { defineStore } from "pinia";
 import CryptoJS from "crypto-js";
 
-const searchQueryObject = ref(null);
-
-const getSearchQueryObject = (query) => {
-  searchQueryObject.value = query;
-};
 export const useUsersStore = defineStore("users", () => {
   const users = ref(JSON.parse(localStorage.getItem("users")) || []);
   const currentUser = ref(JSON.parse(sessionStorage.getItem("user")) || null);
   const isFirstVisit = ref(true);
+  const searchQueryObject = ref(null);
+
+  const getSearchQueryObject = (query) => {
+    searchQueryObject.value = query;
+  };
 
   watchEffect(() => {
     localStorage.setItem("users", JSON.stringify(users.value));
@@ -34,7 +34,9 @@ export const useUsersStore = defineStore("users", () => {
   }
 
   function addUser(user) {
-    const existingUser = users.value.find((u) => decrypt(u.email) === user.email);
+    const existingUser = users.value.find(
+      (u) => decrypt(u.email) === user.email
+    );
     if (existingUser) {
       throw new Error("User already exists");
     } else {
@@ -48,16 +50,17 @@ export const useUsersStore = defineStore("users", () => {
   const addTrip = (trip) => {
     if (currentUser.value) {
       currentUser.value.favtrips.push(trip);
-      users.value.forEach(user => {
+      users.value.forEach((user) => {
         if (user.id === currentUser.value.id) {
           user.favtrips.push(trip);
         }
       });
     }
-  }
+  };
   function authenticateUser(email, password) {
     const user = users.value.find(
-      (user) => decrypt(user.email) === email && decrypt(user.password) === password
+      (user) =>
+        decrypt(user.email) === email && decrypt(user.password) === password
     );
 
     if (user) {
@@ -68,7 +71,6 @@ export const useUsersStore = defineStore("users", () => {
     }
   }
   function signOut() {
-    
     sessionStorage.removeItem("user");
     window.location.reload();
   }
@@ -85,6 +87,6 @@ export const useUsersStore = defineStore("users", () => {
     decrypt,
     signOut,
     getSearchQueryObject,
-    addTrip
+    addTrip,
   };
 });
