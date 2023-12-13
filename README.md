@@ -1,4 +1,4 @@
-# Graduation Booking App
+![home](https://github.com/Hossam281/Booking-App/assets/83101891/c50a39e9-16ae-4654-bf54-1d0e09aa074d)# Graduation Booking App
 
 
 Welcome to the Graduation Booking App repository!
@@ -46,3 +46,14 @@ npm run dev
 - **Headless UI**
 - **Vue Toastification**
 - **Crypto-JS**
+
+![home](https://github.com/Hossam281/Booking-App/assets/83101891/dac5cafe-a96c-4f71-a364-190c95142d19)
+
+![searchresult](https://github.com/Hossam281/Booking-App/assets/83101891/047c9a4d-c27d-4cee-911f-84fc9707a93b)
+
+
+![Mytrips](https://github.com/Hossam281/Booking-App/assets/83101891/147b09d0-f75c-48b9-99bc-81292e571a3d)
+
+
+
+
