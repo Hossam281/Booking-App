@@ -1,8 +1,8 @@
-# Graduation Booking App
+#  Booking App
 
 
-Welcome to the Graduation Booking App repository!
-This project is developed as part of the front-end internship application at Algoriza. The Graduation Booking App is designed to help users find and book hotels. Please read the following information to get started with the project.
+Welcome to the  Booking App repository!
+This project is developed as part of the front-end internship application at Algoriza. The Booking App is designed to help users find and book hotels. Please read the following information to get started with the project.
 
 ## Getting Started
 
@@ -35,7 +35,7 @@ npm run dev
 
 ## API Quota Warning
 
-**Important**: The Graduation Booking App uses a third-party API for hotel data, and the API quota has been reduced to only 50 calls per month. Exercise caution to avoid exceeding this limit. If the API quota is exceeded, the app may experience disruptions or fail to fetch data. Please be mindful of the API usage to ensure uninterrupted service.
+**Important**: The Booking App uses a third-party API for hotel data, and the API quota has been reduced to only 50 calls per month. Exercise caution to avoid exceeding this limit. If the API quota is exceeded, the app may experience disruptions or fail to fetch data. Please be mindful of the API usage to ensure uninterrupted service.
 
 ## Technologies Used
 - **Vue.js** 
