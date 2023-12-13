@@ -33,9 +33,7 @@ npm run dev
 - **routes**: Contains vue-router initialization folder.
 - **stores**: Contains Pinia stores and global states/actions for the project.
 
-## API Quota Warning
 
-**Important**: The Booking App uses a third-party API for hotel data, and the API quota has been reduced to only 50 calls per month. Exercise caution to avoid exceeding this limit. If the API quota is exceeded, the app may experience disruptions or fail to fetch data. Please be mindful of the API usage to ensure uninterrupted service.
 
 ## Technologies Used
 - **Vue.js** 
