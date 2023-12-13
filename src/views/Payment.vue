@@ -67,7 +67,7 @@
                     <input
                       v-model="phoneNumber"
                       placeholder="enter your phone number"
-                      type="text"
+                      type="number"
                       class="w-[338px] focus:bg-white placeholder:pl-[12px] rounded-md outline-[#2F80ED] bg-[#F2F2F2] h-[44px]"
                     />
                   </div>
@@ -129,7 +129,7 @@
                   <input
                     v-model="cardNumber"
                     placeholder="1234xxxxxxx"
-                    type="text"
+                    type="number"
                     class="w-[500px] placeholder:pl-[12px] focus:bg-white rounded-md outline-[#2F80ED] bg-[#F2F2F2] h-[44px]"
                   />
                   <img src="@/assets/tic.png" alt="" />
@@ -155,7 +155,7 @@
                   <input
                     v-model="securityCode"
                     placeholder="1234xxx"
-                    type="text"
+                    type="number"
                     class="w-[240px] placeholder:pl-[12px] focus:bg-white rounded-md outline-[#2F80ED] bg-[#F2F2F2] h-[44px]"
                   />
                 </div>
@@ -166,7 +166,7 @@
                   <input
                     v-model="billingZipCode"
                     placeholder="1234xxx"
-                    type="text"
+                    type="number"
                     class="w-[240px] focus:bg-white placeholder:pl-[12px] rounded-md outline-[#2F80ED] bg-[#F2F2F2] h-[44px]"
                   />
                 </div>
