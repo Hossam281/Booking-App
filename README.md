@@ -2,7 +2,7 @@
 
 
 Welcome to the  Booking App repository!
-This project is developed as part of the front-end internship application at **Algoriza**. The Booking App is designed to help users find and book hotels. Please read the following information to get started with the project.
+This project is developed as part of the front-end internship at **Algoriza**. The Booking App is designed to help users find and book hotels. Please read the following information to get started with the project.
 
 ## Getting Started
 
