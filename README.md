@@ -7,24 +7,7 @@ This project is developed as part of the front-end internship at **Algoriza**. T
 ## Getting Started
 
 
-To run the project locally, follow these steps:
 
-1- Clone the repository
-```bash
-git clone https://gitlab.com/Hossam281/algoriza-internship-fe16.git
-```
-2- Enter the project folder
-```bash
-cd booking-app
-```
-3-Install dependencies 
-```bash
-npm install
-```
-3-Run the project
-```bash
-npm run dev
-```
 ## Project Structure
 - **src**: Contains the source code for the Graduation Booking App.
 - **assets**: Store assets like images and icons.
