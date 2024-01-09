@@ -13,7 +13,7 @@ const router = createRouter({
     {
       name: "search",
       path: "/search/serchResults/:query",
-      component: () => import("@/views/searchResults.vue"),
+      component: () => import("@/views/SearchResults.vue"),
       beforeEnter: (to, from, next) => {
         const loggedIn = users.currentUser;
         if (loggedIn && to.name !== "login") {
