@@ -72,7 +72,7 @@
 
 <script setup>
 import { ref } from "vue";
-import Navbar from "@/components/navbar.vue";
+import Navbar from "@/components/Navbar.vue";
 import { useToast } from "vue-toastification";
 import { useUsersStore } from "@/stores/users.js";
 import { useRouter } from "vue-router";
